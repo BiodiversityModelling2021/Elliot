@@ -2,8 +2,8 @@
 # R script for Andrew's exercice during the Biodiversity Modelling 2021 Summer School #
 #=====================================================================================#
 
-dataset <- readr::read_csv2("https://raw.githubusercontent.com/BiodiversityModelling2021/Elliot/sides.csv")
-sides <- dataset[,2]
+dataset <- readr::read_csv2("https://raw.githubusercontent.com/BiodiversityModelling2021/Elliot/main/sides.csv")
+sides <- dataset$sides_hit
 
 
 # Exploration
